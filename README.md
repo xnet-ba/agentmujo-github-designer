@@ -9,6 +9,7 @@
 [![License](https://img.shields.io/github/license/xnet-ba/agentmujo-github-designer?style=flat-square&color=00FF41&labelColor=000000)](LICENSE)
 [![Top lang](https://img.shields.io/github/languages/top/xnet-ba/agentmujo-github-designer?style=flat-square&color=00FF41&labelColor=000000)](https://github.com/xnet-ba/agentmujo-github-designer)
 [![Last commit](https://img.shields.io/github/last-commit/xnet-ba/agentmujo-github-designer?style=flat-square&color=00FF41&labelColor=000000)](https://github.com/xnet-ba/agentmujo-github-designer/commits)
+[![Tests](https://github.com/xnet-ba/agentmujo-github-designer/actions/workflows/tests.yml/badge.svg)](https://github.com/xnet-ba/agentmujo-github-designer/actions/workflows/tests.yml)
 [![matrix](https://img.shields.io/badge/MATRIX-xnet--ba-00FF41?style=flat-square&labelColor=000000)](https://github.com/xnet-ba)
 
 </div>
