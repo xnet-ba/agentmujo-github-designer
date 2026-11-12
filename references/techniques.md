@@ -50,6 +50,29 @@ Pravilo: katalog je inspiracija, ali svaki widget se provjerava curl-om (Faza 1)
 | activity-graph | `github-readme-activity-graph` | 402 MRTAV | ne ugradjivati |
 | readme-x-cards / gh-stats-card | iz tools liste galerije | NEPROVJERENO | curl prije upotrebe |
 
+## Obrasci galerije 2 (copy-paste sabloni, 468 fajlova)
+
+Puni primjeri: `references/examples/DenverCoder1.md` (interaktivni),
+`references/examples/AlexMartinFR.md` (minimalisticki). Preuzeto:
+
+- **Tabela top projekata sa zivim stars/forks** — HTML `<table>`, kolone
+  Project/Stars/Forks, shields `github/stars/...` + `github/forks/...`
+  po redu. Dodaj `More Repos` bedz na kraj.
+- **Auto-update markeri za Actions** — `<!-- YOUTUBE:START/END -->`
+  (blog-post-workflow) i `<!--START_SECTION:activity/END_SECTION:activity-->`
+  (github-activity-readme). Sadrzaj osvjezava Action, README ostaje statican.
+- **Stats u `<details>` + honesty note** — "metric of public code, not skill".
+  Smanjuje buku, zadrzava dokaz.
+- **Icon grid tabela** — 5 kolona, 28px ikone sa `title` tooltipom, izvori
+  `github/explore/.../topics/...`, icons8, imgur. Hotlink oprez: tudji host
+  moze nestati — preferiraj skillicons/devicons CDN.
+- **ASCII krizaljka tabelom** — markdown tabela kao rijec-krizaljka,
+  nula eksternih zavisnosti (vidi AlexMartinFR primjer).
+- **Self-hosted bedzevi** (youtube-api, ghpvc na vlastitom domenu) —
+  NE preporuka: umru s domenom. Koristi shields/komarev.
+- **StackExchange flair** `stackexchange.com/users/flair/ID.png` (208x58) —
+  gotov embed za Q&A reputaciju.
+
 ## Kucni matrix stil (default za xnet-ba)
 
 `#00FF41` na `#020a02`/`#000000`, `visitor@matrix`, yaml licna karta,
