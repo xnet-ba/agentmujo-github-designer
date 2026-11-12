@@ -41,6 +41,9 @@ GITHUB_ORG=moj-org python scripts/apply-headers.py
 
 # sadrzajna unapredjenja (TOC, fenceovi, details, demo, bedzevi)
 python scripts/upgrade-content.py
+
+# mjesecno odrzavanje (svjezi klonovi + obje skripte + izvjestaj)
+./scripts/maintain.sh
 ```
 
 ## Dokaz da radi
