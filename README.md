@@ -1,7 +1,7 @@
 <!-- xnet-ba-matrix-header-v1 -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=140&section=header&text=agentmujo-github-designer&fontColor=000000&fontSize=24&fontAlignY=32&desc=open-source%20AI%20iz%20BiH&descAlignY=55" width="100%" alt="agentmujo-github-designer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=140&section=header&text=agentmujo-github-designer&fontColor=000000&fontSize=24&fontAlignY=32&desc=OpenCode%20skill%3A%20dizajn%20i%20odrzavanje%20GitHub%20profila&descAlignY=55" width="100%" alt="agentmujo-github-designer"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=800&color=00FF41&center=true&vCenter=true&width=700&lines=xnet-ba+%3A%3A+open-source+AI+iz+BiH;citaj+README+pa+pokreni;PR+dobrodosli)](https://github.com/xnet-ba/agentmujo-github-designer)
 
@@ -43,14 +43,23 @@ GITHUB_ORG=moj-org python scripts/apply-headers.py
 python scripts/upgrade-content.py
 ```
 
+## Dokaz da radi
+
+Ovaj skill je napravio profil i brendirao repove na `@/xnet-ba`:
+
+- Profil: [xnet-ba](https://github.com/xnet-ba) — matrix header, terminal, ecosystem traka, stats, snake (dark/light)
+- 15 repo README-a — capsule header, Stars/License/Top-lang/Last-commit bedzevi, footer ([mujofix](https://github.com/xnet-ba/mujofix), [AgentMujoJob](https://github.com/xnet-ba/AgentMujoJob))
+- Usput popravljeno: CI badge na pravi org (training), Tests badge (mddr-shield), demo sekcija (ascii-motion-studio), restrukturiran mujopresa, 23 packa u `<details>` (skills-packs)
+
 ## Struktura
 
 - `SKILL.md` — skill: faze 0-4, pravila, verifikacija
 - `references/techniques.md` — 12 stilova + obrasci + tabela pouzdanosti widgeta
 - `references/constraints.md` — sta prezivljava GitHub renderer
+- `references/examples/` — DenverCoder1 (interaktivni), AlexMartinFR (minimalisticki)
 - `assets/` — header.svg, divider.svg, terminal.svg, ecosystem.svg (SMIL, self-contained)
 - `templates/` — PROFILE_README.template.md, REPO_HEADER_SNIPPET.md, snake.yml
-- `scripts/` — apply-headers.py, upgrade-content.py
+- `scripts/` — apply-headers.py, upgrade-content.py (`GITHUB_ORG` env, default xnet-ba)
 
 ## Licenca
 
