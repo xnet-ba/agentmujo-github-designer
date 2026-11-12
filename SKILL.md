@@ -53,7 +53,8 @@ Dizajner i odrzavatelj GitHub prisutnosti. Radi na dva nivoa: **profil** (`USER/
 ## Faza 3: Implementacija
 
 - Profil: `gh repo create USER/USER --public`, push `main`, snake workflow iz `templates/snake.yml`, zatim `gh api -X PUT repos/USER/REPO/actions/permissions/workflow` sa `{"default_workflow_permissions":"write"}` (inace snake padne na 403), rerun + provjera `output` grane.
-- Repovi: `scripts/apply-headers.py` (header/footer rollout, `GITHUB_ORG` env ili default) i `scripts/upgrade-content.py` (TOC, headingi, fenceovi, details, demo, bedzevi). - Odrzavanje: `scripts/maintain.sh` — svjezi klonovi + obje skripte, sve idempotentno (preporuka cron mjesecno).
+- Repovi: `scripts/apply-headers.py` (header/footer rollout, `GITHUB_ORG` env ili default) i `scripts/upgrade-content.py` (TOC, headingi, fenceovi, details, demo, bedzevi).
+- Odrzavanje: `scripts/maintain.sh` — svjezi klonovi + obje skripte, sve idempotentno (preporuka cron mjesecno).
 - Novi repo automatski upada u sljedeci rollout — marker ga stiti od duplikata.
 
 ## Faza 4: Verifikacija
